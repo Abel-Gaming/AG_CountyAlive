@@ -123,19 +123,6 @@ Config.RentalVehicleSpawnCoord = vector3(311.7, 3382.14, 35.91) -- Where the veh
 Config.RentalVehicleSpawnHeading = 290.58 -- The heading the vehicle will spawn
 Config.RentalVehicleReturnCoord = vector3(359.51, 3422.57, 35.58) -- The location where the return marker will be drawn
 
-Config.RentalVehicles = {
-    {
-        label = 'ATV', -- This is what will appear on the menu
-        spawnCode = 'blazer', -- This is the spawn name of the vehicle
-        price = 500 -- This is the price
-    },
-    {
-        label = 'Dirt Bike',
-        spawnCode = 'sanchez',
-        price = 400
-    }
-}
-
 -- Hiking
 Config.EnableHiking = true
 
